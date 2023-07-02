@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+.review-card {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.review-user {
+    display: flex;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+  }
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+  }
+  
+h3 {
+    font-size: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+.star {
+    color: black;
+    font-size: 30px;
+  }
+  
+p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 0px;
+    line-height: 30px;
+}
+.person{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.star-container{
+    align-items: center;
+}
+  

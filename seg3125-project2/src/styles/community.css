@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+.community-container {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+.community-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+  }
+  
+.community-sidebar {
+    width: 200px;
+    margin-left: 30px;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+.community-sidebar h3{
+  text-align: left;
+}
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: "Barlow", sans-serif;
+  }
+  
+.friends-list {
+    margin-bottom: 20px;
+  }
+  
+.friends-list h2 {
+    margin-bottom: 10px;
+  }
+  
+.community-content {
+    width: 500px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+.publish-box textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+.publish-box button {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+.post-card p {
+    margin: 0;
+  }
+
+.facebook{
+    background-color: #3B579D;
+    font-family: "Barlow", sans-serif;
+    display:inline-flex;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.twitter{
+    background-color:#55ACEE ;
+    font-family: "Barlow", sans-serif;
+    display:inline-flex;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.google{
+    background-color :#DD4B39 ;
+    font-family: "Barlow", sans-serif;
+    display:inline-flex;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.social-image1{
+    width: 40px;
+    margin-right: 5px;
+}
+.social-image2{
+    width: 25px;
+    margin-right: 15px;
+}
+.social-image3{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.user-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .text-box{
+    width: 1000px;
+    height: 300px;
+    margin-top: 10px;
+    text-align: left;
+    vertical-align:top;
+  }
+  .container{
+    display: inline-flex;
+  }
+  .post-button{
+    margin-top: 10px;
+    background-color: black;
+    justify-content: right;
+  }
+  .friend-picture{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .friend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .friend-name {
+    margin-left: 10px;
+  }
+  .posts{
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  body {
+    background-color: #CBC3E3;
+  }
+
+  

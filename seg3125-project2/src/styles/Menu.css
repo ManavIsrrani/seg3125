@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .menuTitle {
+  font-family: "Barlow", sans-serif;
+  font-size: 60px;
+}
+
+.menuList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.menuItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 600px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.menuItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.menuItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuItem h1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.menuItem p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+}
+.menuItem button{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  height: 50px;
+  width: 180px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button2{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  height: 50px;
+  width: 300px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #CBC3E3;
+}
