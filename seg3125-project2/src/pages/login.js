@@ -22,7 +22,7 @@ const Login = () => {
         <a href="#" className='forgot'>Forgot Password?</a>
       </p>
       <p  className='forgot'>
-        New to this website?  <a href="/signup">Sign Up</a>
+        New to this website?  <Link to="/signup">Sign Up</Link>
       </p>
       <br></br>
       </center>
