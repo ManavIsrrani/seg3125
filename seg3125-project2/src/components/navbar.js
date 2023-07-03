@@ -14,7 +14,7 @@ function Navbar() {
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <img src={Logo} />
         <div className="hiddenLinks">
-          <Link to="/"> Home </Link>
+          <Link to="/seg3125/"> Home </Link>
           <Link to="/marketplace"> Marketplace </Link>
           <Link to="/information"> Information </Link>
           <Link to="/community"> Community </Link>
@@ -23,7 +23,7 @@ function Navbar() {
         </div>
       </div>
       <div className="rightSide">
-          <Link to="/"> Home </Link>
+          <Link to="/seg3125/"> Home </Link>
           <Link to="/marketplace"> Marketplace </Link>
           <Link to="/events"> Events </Link>
           <Link to="/community"> Community </Link>
